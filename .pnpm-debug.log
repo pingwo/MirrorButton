@@ -1,0 +1,92 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "hello-jupiter",
+      "scripts": {
+        "dev": "jupiter dev",
+        "build": "jupiter build",
+        "start": "jupiter start"
+      },
+      "dependencies": {
+        "react": "^17",
+        "react-dom": "^17",
+        "@jupiter/plugin-runtime": "^5.0.0"
+      },
+      "devDependencies": {
+        "@jupiter/app-tools": "^5.0.0"
+      }
+    },
+    "prefix": "/Users/bytedance/Desktop/学习使用/MirrorButton"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/bytedance/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/bytedance/Desktop/学习使用/MirrorButton/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/bytedance/Desktop/学习使用/MirrorButton",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "6.14.5",
+    "latestVersion": "7.29.0"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/react/17.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react",
+      "rawSpec": "^17"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/react/17.0.2",
+    "requester": "/Users/bytedance/Desktop/学习使用/MirrorButton",
+    "status": "resolved"
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/react/17.0.2",
+    "requester": "/Users/bytedance/Desktop/学习使用/MirrorButton",
+    "status": "found_in_store"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/react-dom/17.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-dom",
+      "rawSpec": "^17"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/react-dom/17.0.2",
+    "requester": "/Users/bytedance/Desktop/学习使用/MirrorButton",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/react-dom/17.0.2",
+    "requester": "/Users/bytedance/Desktop/学习使用/MirrorButton",
+    "status": "found_in_store"
+  },
+  "11 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@jupiter/app-tools is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npm.taobao.org/@jupiter%2Fapp-tools"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "@jupiter/app-tools",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npm.taobao.org/@jupiter%2Fapp-tools: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npm.taobao.org/@jupiter%2Fapp-tools: Not Found - 404\n    at RetryOperation._fn (/Users/bytedance/Library/pnpm/global/5/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:84507:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}

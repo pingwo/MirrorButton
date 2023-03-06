@@ -1,0 +1,16 @@
+{
+    "name": "hello-jupiter",
+    "scripts": {
+        "dev": "jupiter dev",
+        "build": "jupiter build",
+        "start": "jupiter start"
+    },
+    "dependencies": {
+        "react": "^17",
+        "react-dom": "^17",
+        "@jupiter/plugin-runtime": "^5.0.0"
+    },
+    "devDependencies": {
+        "@jupiter/app-tools": "^5.0.0"
+    }
+}
